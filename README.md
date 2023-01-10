@@ -1,0 +1,1 @@
+![Screenshot](https://github.com/dakual/gitlab-ci-downstream/sc.png)
