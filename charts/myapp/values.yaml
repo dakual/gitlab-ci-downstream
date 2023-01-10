@@ -1,0 +1,24 @@
+replicaCount: 1
+
+name: my-app-demo
+env: production
+maxReplicas: 10
+cpuUsage: 80
+
+image:
+  name: busybox
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 80
+  name: http
+  nodePort: 30500
+
+environment:
+  GREETING: "Helm demo chart!"
+
+resources:
+  requests:
+    cpu: 250m
