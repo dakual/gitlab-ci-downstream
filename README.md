@@ -1,1 +1,1 @@
-![Screenshot](https://github.com/dakual/gitlab-ci-downstream/sc.png)
+![Screenshot](https://github.com/dakual/gitlab-ci-downstream/blob/main/sc.png?raw=true)
